@@ -1,0 +1,57 @@
+#basket-send {
+    text-align: center;
+}
+
+#basket-send a.button {
+    display: inline-block;
+    width: 49%;
+    font-size: 14px;
+}
+#basket-send p {
+    padding-bottom: 10px !important;
+}
+
+label.disabled {
+    color: #A4A8A9;
+}
+
+.product__slider-item {
+    text-align: center;
+}
+
+.product__slider-thumbnail a {
+    text-align: center;
+}
+
+.dropdown-block.bx-ui-sls-input-block {
+    font-size: 16px;
+    padding: 8px 15px;
+    border-color: #d8d8d8;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    color: #666;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 8px 13px;
+    width: 100%;
+    display: block;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    border-radius: 3px;
+    border-radius: 0;
+    box-shadow: none;
+    font-family: "Yota Rounded", Verdana !important;
+}
+
+.bx-ui-sls-route {
+    padding: 1px 0px 0px 15px !important;
+    font-family: "Yota Rounded", Verdana !important;
+}
+.bx-ui-sls-fake {
+    font-family: "Yota Rounded", Verdana !important;
+}
+
+.bx-sls .dropdown-item-text {
+    font-size: 14px;
+}
