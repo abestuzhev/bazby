@@ -20,7 +20,7 @@
 <!-- <link href="local/templates/bazby/components/bitrix/sale.basket.basket.line/top/style.css?14823922574229" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
 <!-- <link href="local/templates/bazby/components/bitrix/search.title/top/style.css?14823922572108" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
 <link href="local/components/bitrix/catalog.section.list/top_menu_new/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="local/components/bitrix/menu/bottom_menu/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="local/components/bitrix/menu/buttom_menu/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="local/templates/bazby/styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <!-- <script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script> -->
 <!-- <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
@@ -101,7 +101,7 @@
 <!-- <script type="text/javascript" src="local/templates/bazby/components/bitrix/sale.basket.basket.line/top/script.js?14823922575292"></script> -->
 <!-- <script type="text/javascript" src="bitrix/components/bitrix/search.title/script.js?14823922549371"></script> -->
 <script type="text/javascript" src="local/components/bitrix/catalog.section.list/top_menu_new/script.js"></script>
-<script type="text/javascript" src="local/components/bitrix/catalog.section/index_items/script.js"></script>
+<!--<script type="text/javascript" src="local/components/bitrix/catalog.section/index_items/script.js"></script>-->
 <!-- <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "a910ea7ea6be277fc59844da6047947b"]); _ba.push(["host", "bazby.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script> -->
 
 
@@ -226,6 +226,7 @@ bx_basketFKauiI.activate();
                     <nav class="nav-main" role="navigation">
                         <div class="nav-main__hamburger"></div>
 
+                      <!--изменение дивов на элементы списка ul и li 23.03.2017-->
                   <ul class="nav-main-list">
                     <li class="nav-main-list__item">
                       <a id="#menu0-link" href="/catalog/lego/" data-submenu="#menu0" class="nav-main__item">LEGO<br></a>
@@ -646,11 +647,12 @@ bx_basketFKauiI.activate();
                             <li class="nav-main__submenu-menu-block last " data-id="show-menu-2581"><a href="/catalog/kantselyariya_i_vse_dlya_shkoly/nakleyki_perevodilki/" class="nav-main__submenu-title submenu-2">Наклейки, переводилки</a></li>
                         </ul>
                     </li>
-    </ul>                        <!-- NAV MAIN => SUBMENU -->
-                    </nav>
-                    <!-- CATEGORY NAVIGATION [END] -->
-                </div>
-            </div>
+                </ul>                        <!-- NAV MAIN => SUBMENU -->
+                      <!--окончание изменений дивов на элементы списка ul и li 23.03.2017-->
+              </nav>
+             <!-- CATEGORY NAVIGATION [END] -->
+             </div>
+           </div>
             <main class="content main-page   ">
                 <div class="container">
                     <div class="content__inner">
@@ -683,7 +685,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/136134/"><img src="/upload/iblock/dfe/dfe4b3e64899fde41ab42a3b220f9901.jpeg" alt="Item preview"></a>
+                           <a href="/catalog/136134/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -714,7 +716,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/93821/"><img src="/upload/iblock/7f1/7f15bf2967e2090134165167be8afec9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/93821/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -745,7 +747,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/119337/"><img src="/upload/iblock/749/749dc9b74b6d90ab01f87978a1db423e.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/119337/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -776,7 +778,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/96559/"><img src="/upload/iblock/2db/2db000763652babac9c8ae76d18ff1fe.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/96559/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -809,7 +811,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/136008/"><img src="/upload/iblock/d85/d8507c5d9e0525bbfcf3de9c64d88db4.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/136008/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -840,7 +842,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/54110/"><img src="/upload/iblock/2d9/2d9e24074b67306f845f6b6d02fc5554.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/54110/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -871,7 +873,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/54096/"><img src="/upload/iblock/b37/b37ef6a83f339b025f0a8d1cc9a69261.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/54096/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -902,7 +904,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/99837/"><img src="/upload/iblock/382/382d9e283b09d9044fb8bed46e896f64.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/99837/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -914,8 +916,8 @@ bx_basketFKauiI.activate();
                         <div class="category-item__price-new">720 <small>руб.</small></div>
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_1970176138_99837_basket_actions">
-                    <a id="bx_1970176138_99837_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('99837', '/upload/iblock/382/382d9e283b09d9044fb8bed46e896f64.jpeg', 'Конструктор Lego Рыцари Нексо Ланс Абсолютная сила 70337', '720 руб.')"></a>
+                    <!--<a id="bx_1970176138_99837_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"-->
+                       <!--onclick="toBasket('99837', '/upload/iblock/382/382d9e283b09d9044fb8bed46e896f64.jpeg', 'Конструктор Lego Рыцари Нексо Ланс Абсолютная сила 70337', '720 руб.')"></a>-->
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -934,7 +936,7 @@ bx_basketFKauiI.activate();
 <ul class="subcategory-list">
                             <li class="subcategory-list__item" id="bx_4145281613_2079">
             <a href="/catalog/lego/" class="subcategory-item"> <span class="subcategory-item__img">
-                                        <img src="/upload/resize_cache/iblock/f27/135_180_1/f273be54f4bdd06babccbe3b3b909143.jpeg" alt="">
+                                        <img src="" alt="">
                 </span> <span class="subcategory-item__title">
                     <span class="centered">
                         <span class="inner">
@@ -945,7 +947,7 @@ bx_basketFKauiI.activate();
         </li>
                             <li class="subcategory-list__item" id="bx_4145281613_2311">
             <a href="/catalog/dlya_malyshey/" class="subcategory-item"> <span class="subcategory-item__img">
-                                        <img src="/upload/resize_cache/iblock/28e/135_180_1/28eb9e0596d94263e7f78a8c840f1d7b.jpeg" alt="">
+                                        <img src="" alt="">
                 </span> <span class="subcategory-item__title">
                     <span class="centered">
                         <span class="inner">
@@ -956,7 +958,7 @@ bx_basketFKauiI.activate();
         </li>
                             <li class="subcategory-list__item" id="bx_4145281613_2412">
             <a href="/catalog/igrushki_i_igry/" class="subcategory-item"> <span class="subcategory-item__img">
-                                        <img src="/upload/resize_cache/iblock/c3d/135_180_1/c3dc867a06e82b668e91af5100fd5c3b.jpeg" alt="">
+                                        <img src="" alt="">
                 </span> <span class="subcategory-item__title">
                     <span class="centered">
                         <span class="inner">
@@ -967,7 +969,7 @@ bx_basketFKauiI.activate();
         </li>
                             <li class="subcategory-list__item" id="bx_4145281613_2456">
             <a href="/catalog/odezhda_obuv_i_aksessuary/" class="subcategory-item"> <span class="subcategory-item__img">
-                                        <img src="/upload/resize_cache/iblock/748/135_180_1/748420ce2f76be06ccb0aeab48e0be43.jpeg" alt="">
+                                        <img src="" alt="">
                 </span> <span class="subcategory-item__title">
                     <span class="centered">
                         <span class="inner">
@@ -1012,12 +1014,12 @@ bx_basketFKauiI.activate();
 			 Бренды <a class="brands-mini__all" href="/brands/">все бренды</a>
 		</div>
 		<ul class="brands-mini__list">
-			 			<li class="brands-mini__list-item"> <a href="/brands/marvel" class="brands-mini__item"><img src="/upload/iblock/5a7/5a7da22e82269fc1a848ef5e82d56a33.jpg" alt=""> </a> </li>
-			 			<li class="brands-mini__list-item"> <a href="/brands/disney" class="brands-mini__item"><img src="/upload/iblock/544/54435b6b1074000df2c259e6f60ea58d.jpg" alt=""> </a> </li>
-			 			<li class="brands-mini__list-item"> <a href="/brands/LEGO" class="brands-mini__item"><img src="/upload/iblock/862/86292abb108396c7c407ca9d457b661b.jpg" alt=""> </a> </li>
-			 			<li class="brands-mini__list-item"> <a href="/brands/play_doh" class="brands-mini__item"><img src="/upload/iblock/ee7/ee78c24857ef4d460b99111fb3984a10.jpg" alt=""> </a> </li>
-			 			<li class="brands-mini__list-item"> <a href="/brands/hasbro" class="brands-mini__item"><img src="/upload/iblock/c44/c442e89fc9ec2b0e67b920b0183b7b49.jpg" alt=""> </a> </li>
-			 			<li class="brands-mini__list-item"> <a href="/brands/barbie" class="brands-mini__item"><img src="/upload/iblock/749/749cd30104dc8605589267736ef8b744.jpg" alt=""> </a> </li>
+			 			<li class="brands-mini__list-item"> <a href="/brands/marvel" class="brands-mini__item"><img src="" alt=""> </a> </li>
+			 			<li class="brands-mini__list-item"> <a href="/brands/disney" class="brands-mini__item"><img src="" alt=""> </a> </li>
+			 			<li class="brands-mini__list-item"> <a href="/brands/LEGO" class="brands-mini__item"><img src="" alt=""> </a> </li>
+			 			<li class="brands-mini__list-item"> <a href="/brands/play_doh" class="brands-mini__item"><img src="" alt=""> </a> </li>
+			 			<li class="brands-mini__list-item"> <a href="/brands/hasbro" class="brands-mini__item"><img src="" alt=""> </a> </li>
+			 			<li class="brands-mini__list-item"> <a href="/brands/barbie" class="brands-mini__item"><img src="" alt=""> </a> </li>
 			 		</ul>
 	</div>
 	 <!-- BLOCK news-mini [END] -->
@@ -1070,16 +1072,16 @@ bx_basketFKauiI.activate();
 		</div>
 	</div>
 	<div class="instaframe">
-		<div class="instaframe__left">
-			 <iframe src='local/templates/bazby/inwidget/index.php?width=500&inline=4&view=12' scrolling='no' frameborder='no' style='border:none;width:500px;height:490px;overflow:hidden;'></iframe> <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
-		</div>
+		<!--<div class="instaframe__left">-->
+			 <!--<iframe src='local/templates/bazby/inwidget/index.php?width=500&inline=4&view=12' scrolling='no' frameborder='no' style='border:none;width:500px;height:490px;overflow:hidden;'></iframe> <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>-->
+		<!--</div>-->
 		<div class="instaframe__right">
 			 <!-- VK Widget -->
 			<div id="vk_groups">
 			</div>
-			 <script type="text/javascript">
-VK.Widgets.Group("vk_groups", {mode: 4, width: "500", height: "490", color3: '359C1B'}, 52509249);
-</script>
+			 <!--<script type="text/javascript">-->
+<!--VK.Widgets.Group("vk_groups", {mode: 4, width: "500", height: "490", color3: '359C1B'}, 52509249);-->
+<!--</script>-->
 		</div>
 	</div>
 </div>
@@ -1162,7 +1164,7 @@ VK.Widgets.Group("vk_groups", {mode: 4, width: "500", height: "490", color3: '35
 <a href="#basket-send" id="basketAdd" class="popup-call"></a>
 <div id="basket-send" class="popup-custom" style="display: none;">
     <div class="popup-custom__title">Товар добавлен в корзину!</div>
-    <div id="rep-image"><img src="/upload/iblock/97b/97b78240b383c6c9c421dd0feed11c7c.jpg" alt="Item preview"></div>
+    <div id="rep-image"><img src="" alt="Item preview"></div>
     <p id="rep-name"></p>
     <p id="rep-price"></p>
     <p id="rep-color" style="display: none;"></p>

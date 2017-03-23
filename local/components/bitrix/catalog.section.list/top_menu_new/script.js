@@ -18,7 +18,7 @@ $(document).ready(function () {
                 $('#' + $(this).data('id')).css('left', -(width + 90) - 5);
             } else if ($(this).hasClass('last')) {
                 $(this).parent().parent().addClass('last');
-                $('#' + $(this).data('id')).css('left', -(width * 2) - 5);
+                $('#' + $(this).data('id')).css('left', -(width + 60) - 5);
             } else
                 $('#' + $(this).data('id')).css('left', width);
         }
@@ -75,10 +75,10 @@ function showFirst(id) {
         $_this.parent().parent().addClass('border');
         if ($_this.hasClass('pre-last')) {
             $_this.parent().parent().addClass('last');
-            $('#' + $_this.data('id')).css('left', -(width + 90) - 5);
+            $('#' + $_this.data('id')).css('left', -(width) - 5);
         } else if ($_this.hasClass('last')) {
             $_this.parent().parent().addClass('last');
-            $('#' + $_this.data('id')).css('left', -(width + 90) - 5);
+            $('#' + $_this.data('id')).css('left', -(width + 60) - 5);
         } else
             $('#' + $_this.data('id')).css('left', width);
     }
