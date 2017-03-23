@@ -75,7 +75,7 @@ function showFirst(id) {
         $_this.parent().parent().addClass('border');
         if ($_this.hasClass('pre-last')) {
             $_this.parent().parent().addClass('last');
-            $('#' + $_this.data('id')).css('left', -(width) - 5);
+            $('#' + $_this.data('id')).css('left', -(width + 90) - 5);
         } else if ($_this.hasClass('last')) {
             $_this.parent().parent().addClass('last');
             $('#' + $_this.data('id')).css('left', -(width + 60) - 5);
