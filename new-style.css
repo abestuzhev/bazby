@@ -5,5 +5,38 @@
   }
   .nav-main-list {
     overflow: visible;
-  }  
+  }
+}
+
+.nav-main__submenu-menu-block:hover > .nav-main__submenu-list {
+  display: block !important;
+}
+
+ul.submenu-3 {
+  left: 238px;
+  /*left: 373px;*/
+}
+
+/*.nav-main__submenu-menu-block {
+  position: relative;
+}*/
+
+.nav-main__submenu {
+  width: 240px;
+  /*padding-left: 12px !important;
+  padding-right: 12px !important;*/
+}
+
+.nav-main__submenu-title {
+  padding: 6px 12px;
+  line-height: 1;
+}
+
+.nav-main__submenu-list {
+  min-height: 100%;
+}
+
+ul.submenu-3:not(.last):before {
+  content: "";
+  display: none;
 }

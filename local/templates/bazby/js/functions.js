@@ -10,7 +10,7 @@ function simpleTabs() {
     });
 }
 
-//Popup 
+//Popup
 function popup(popupClass, popupConfig) {
     if (popupClass.length) {
         r_popup = popupClass.fancybox(popupConfig);
@@ -233,7 +233,7 @@ function filtersFormControl() {
  e.stopPropagation();
  $(this).addClass('nav-main__item--active').parent().addClass('nav-main-list__item--active')
  .siblings().removeClass('nav-main-list__item--active').find('.nav-main__item').removeClass('nav-main__item--active');
- 
+
  var submenuTarget = $(this).attr('data-submenu');
  $('.nav-main__submenu').addClass('nav-main__submenu--open').fadeIn(300);
  $(submenuTarget).fadeIn().siblings('.nav-main__submenu-menu').fadeOut(0);
@@ -257,8 +257,9 @@ function filtersFormControl() {
  $(this).parent().siblings('li').find($('.nav-main__submenu-menu')).slideUp(300);
  });
  }
- 
+
  }*/
+ /* комментарии 24.03.2017
 function submenuControl() {
     if ($('.nav-main__item').length && $(window).width() >= 767) {
         $('.nav-main-list__item').hover(function (e) {
@@ -277,6 +278,7 @@ function submenuControl() {
         }
         ,
                 function () {
+                  */
 
 //                    ns4 = (document.layers) ? true : false
 //                    ie4 = (document.all) ? true : false
@@ -313,6 +315,7 @@ function submenuControl() {
                     //$('.nav-main__item--active').removeClass('nav-main__item--active');
                     //$('.nav-main-list__item--active').removeClass('nav-main-list__item--active');
                     //}
+/*
                 }
         );
         $('body').on('click', function (e) {
@@ -333,6 +336,7 @@ function submenuControl() {
     }
 
 }
+*/
 function navMobileSubmenuFix() {
     if ($(window).width() <= 767) {
         $('.nav-main__item').each(function (e) {
@@ -351,7 +355,7 @@ $(document).on('ready', function () {
     popup($('.popup-call'), popupCfg);
     popup($('.product__slider-item'), popupCfg);
     navMobileControl();
-    submenuControl();
+    // submenuControl(); комментарий 24.03.2017
     navMobileSubmenuFix();
 
     //MAIN PAGE
