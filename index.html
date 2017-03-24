@@ -20,8 +20,11 @@
 <!-- <link href="local/templates/bazby/components/bitrix/sale.basket.basket.line/top/style.css?14823922574229" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
 <!-- <link href="local/templates/bazby/components/bitrix/search.title/top/style.css?14823922572108" type="text/css"  data-template-style="true"  rel="stylesheet" /> -->
 <link href="local/components/bitrix/catalog.section.list/top_menu_new/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
-<link href="local/components/bitrix/menu/buttom_menu/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+<link href="local/components/bitrix/menu/bottom_menu/style.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
 <link href="local/templates/bazby/styles.css" type="text/css"  data-template-style="true"  rel="stylesheet" />
+
+<!-- добавленные стили -->
+<link href="new-style.css" type="text/css" rel="stylesheet" />
 <!-- <script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script> -->
 <!-- <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
 <script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','SITE_ID':'s1','SITE_DIR':'/'});</script> -->
@@ -101,7 +104,7 @@
 <!-- <script type="text/javascript" src="local/templates/bazby/components/bitrix/sale.basket.basket.line/top/script.js?14823922575292"></script> -->
 <!-- <script type="text/javascript" src="bitrix/components/bitrix/search.title/script.js?14823922549371"></script> -->
 <script type="text/javascript" src="local/components/bitrix/catalog.section.list/top_menu_new/script.js"></script>
-<!--<script type="text/javascript" src="local/components/bitrix/catalog.section/index_items/script.js"></script>-->
+<!-- <script type="text/javascript" src="local/components/bitrix/catalog.section/index_items/script.js"></script> -->
 <!-- <script type="text/javascript">var _ba = _ba || []; _ba.push(["aid", "a910ea7ea6be277fc59844da6047947b"]); _ba.push(["host", "bazby.ru"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script> -->
 
 
@@ -226,7 +229,6 @@ bx_basketFKauiI.activate();
                     <nav class="nav-main" role="navigation">
                         <div class="nav-main__hamburger"></div>
 
-                      <!--изменение дивов на элементы списка ul и li 23.03.2017-->
                   <ul class="nav-main-list">
                     <li class="nav-main-list__item">
                       <a id="#menu0-link" href="/catalog/lego/" data-submenu="#menu0" class="nav-main__item">LEGO<br></a>
@@ -647,12 +649,11 @@ bx_basketFKauiI.activate();
                             <li class="nav-main__submenu-menu-block last " data-id="show-menu-2581"><a href="/catalog/kantselyariya_i_vse_dlya_shkoly/nakleyki_perevodilki/" class="nav-main__submenu-title submenu-2">Наклейки, переводилки</a></li>
                         </ul>
                     </li>
-                </ul>                        <!-- NAV MAIN => SUBMENU -->
-                      <!--окончание изменений дивов на элементы списка ul и li 23.03.2017-->
-              </nav>
-             <!-- CATEGORY NAVIGATION [END] -->
-             </div>
-           </div>
+    </ul>                        <!-- NAV MAIN => SUBMENU -->
+                    </nav>
+                    <!-- CATEGORY NAVIGATION [END] -->
+                </div>
+            </div>
             <main class="content main-page   ">
                 <div class="container">
                     <div class="content__inner">
@@ -668,7 +669,7 @@ bx_basketFKauiI.activate();
 				<a href=''><div style="background-image: url(local/templates/bazby/img/1825e749898c800ea00a6da2ed14b3f0.jpg);" class="banner__item"></div></a>
 			</li>
 			 			<li class="banner__list-item">
-				<a href='https://bazby.ru/info/news/stikbot_uzhe_v_prodazhe/'><div style="background-image: url(/upload/iblock/62c/62cf1580ac017e38f9f9a8d3d2f564ad.jpg);" class="banner__item"></div></a>
+				<a href='https://bazby.ru/info/news/stikbot_uzhe_v_prodazhe/'><div style="background-image: url(;" class="banner__item"></div></a>
 			</li>
 			 		</ul>
 	</div>
@@ -685,7 +686,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                           <a href="/catalog/136134/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/136134/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -698,7 +699,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_3966226736_136134_basket_actions">
                     <a id="bx_3966226736_136134_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('136134', '/upload/iblock/dfe/dfe4b3e64899fde41ab42a3b220f9901.jpeg', '-10%Акция м/ч Босоножки(18-230 кх син оранж строч/салат звезд/34', '1 238 руб.')"></a>
+                       onclick="toBasket('136134', '', '-10%Акция м/ч Босоножки(18-230 кх син оранж строч/салат звезд/34', '1 238 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -716,7 +717,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/93821/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/93821/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -729,7 +730,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_3966226736_93821_basket_actions">
                     <a id="bx_3966226736_93821_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('93821', '/upload/iblock/7f1/7f15bf2967e2090134165167be8afec9.jpeg', 'Конструктор Lego Сити Внедорожник4x3 60115', '1 170 руб.')"></a>
+                       onclick="toBasket('93821', '', 'Конструктор Lego Сити Внедорожник4x3 60115', '1 170 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -747,7 +748,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/119337/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/119337/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -760,7 +761,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_3966226736_119337_basket_actions">
                     <a id="bx_3966226736_119337_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('119337', '/upload/iblock/749/749dc9b74b6d90ab01f87978a1db423e.jpeg', 'меч YH Space champion Laser свет,звук 3120-25', '575 руб.')"></a>
+                       onclick="toBasket('119337', '', 'меч YH Space champion Laser свет,звук 3120-25', '575 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -778,7 +779,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/96559/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/96559/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -791,7 +792,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_3966226736_96559_basket_actions">
                     <a id="bx_3966226736_96559_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('96559', '/upload/iblock/2db/2db000763652babac9c8ae76d18ff1fe.jpeg', 'Конструктор Lego Подружки День рождения: Магазин подарков 41113', '450 руб.')"></a>
+                       onclick="toBasket('96559', '', 'Конструктор Lego Подружки День рождения: Магазин подарков 41113', '450 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -811,7 +812,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/136008/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/136008/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -824,7 +825,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_1970176138_136008_basket_actions">
                     <a id="bx_1970176138_136008_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('136008', '/upload/iblock/d85/d8507c5d9e0525bbfcf3de9c64d88db4.jpeg', 'Конструктор Lego Креатор Приключения на островах 31064', '2 250 руб.')"></a>
+                       onclick="toBasket('136008', '', 'Конструктор Lego Креатор Приключения на островах 31064', '2 250 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -842,7 +843,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/54110/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/54110/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -855,7 +856,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_1970176138_54110_basket_actions">
                     <a id="bx_1970176138_54110_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('54110', '/upload/iblock/2d9/2d9e24074b67306f845f6b6d02fc5554.jpeg', 'Конструктор Lego Сити Набор для начинающих: Исследователи вулканов 60120', '720 руб.')"></a>
+                       onclick="toBasket('54110', '', 'Конструктор Lego Сити Набор для начинающих: Исследователи вулканов 60120', '720 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -873,7 +874,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/54096/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/54096/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -886,7 +887,7 @@ bx_basketFKauiI.activate();
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_1970176138_54096_basket_actions">
                     <a id="bx_1970176138_54096_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
-                       onclick="toBasket('54096', '/upload/iblock/b37/b37ef6a83f339b025f0a8d1cc9a69261.jpeg', 'Конструктор Lego Рыцари Нексо Молниеносная машина Мэйси 70319', '1 350 руб.')"></a>
+                       onclick="toBasket('54096', '', 'Конструктор Lego Рыцари Нексо Молниеносная машина Мэйси 70319', '1 350 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -904,7 +905,7 @@ bx_basketFKauiI.activate();
                 <div class="category-item__preview">
                     <div class="centered">
                         <div class="inner">
-                                                        <a href="/catalog/99837/"><img src="local/templates/bazby/img/8960d583ff537363c75d0ea7cf7a32f9.jpeg" alt="Item preview"></a>
+                                                        <a href="/catalog/99837/"><img src="" alt="Item preview"></a>
                         </div>
                     </div>
                 </div>
@@ -916,8 +917,8 @@ bx_basketFKauiI.activate();
                         <div class="category-item__price-new">720 <small>руб.</small></div>
                     </div>
                                 <div class="category-item__action bx_catalog_item_controls_blocktwo" id="bx_1970176138_99837_basket_actions">
-                    <!--<a id="bx_1970176138_99837_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"-->
-                       <!--onclick="toBasket('99837', '/upload/iblock/382/382d9e283b09d9044fb8bed46e896f64.jpeg', 'Конструктор Lego Рыцари Нексо Ланс Абсолютная сила 70337', '720 руб.')"></a>-->
+                    <a id="bx_1970176138_99837_buy_link" class="category-item__add-to-cart" href="javascript:void(0)" rel="nofollow"
+                       onclick="toBasket('99837', '', 'Конструктор Lego Рыцари Нексо Ланс Абсолютная сила 70337', '720 руб.')"></a>
                 </div>
                 <div class="category-item__bottom">
                     <div class="category-item__id">арт:
@@ -1072,16 +1073,16 @@ bx_basketFKauiI.activate();
 		</div>
 	</div>
 	<div class="instaframe">
-		<!--<div class="instaframe__left">-->
-			 <!--<iframe src='local/templates/bazby/inwidget/index.php?width=500&inline=4&view=12' scrolling='no' frameborder='no' style='border:none;width:500px;height:490px;overflow:hidden;'></iframe> <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>-->
-		<!--</div>-->
+		<!-- <div class="instaframe__left">
+			 <iframe src='local/templates/bazby/inwidget/index.php?width=500&inline=4&view=12' scrolling='no' frameborder='no' style='border:none;width:500px;height:490px;overflow:hidden;'></iframe> <script type="text/javascript" src="//vk.com/js/api/openapi.js?136"></script>
+		</div> -->
 		<div class="instaframe__right">
 			 <!-- VK Widget -->
 			<div id="vk_groups">
 			</div>
-			 <!--<script type="text/javascript">-->
-<!--VK.Widgets.Group("vk_groups", {mode: 4, width: "500", height: "490", color3: '359C1B'}, 52509249);-->
-<!--</script>-->
+			 <!-- <script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 4, width: "500", height: "490", color3: '359C1B'}, 52509249);
+</script> -->
 		</div>
 	</div>
 </div>

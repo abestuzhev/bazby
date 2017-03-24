@@ -1,0 +1,9 @@
+@media (max-width: 1023px){
+  .nav-main__submenu {
+    top: 94px;
+    width: 204px !important;
+  }
+  .nav-main-list {
+    overflow: visible;
+  }  
+}
