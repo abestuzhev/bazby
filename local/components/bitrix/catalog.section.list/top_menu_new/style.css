@@ -119,10 +119,10 @@ li.sub-3-title {
     margin-bottom: 11px;
 }
 
-
+/*
 .nav-main-list__item:hover .nav-main__submenu{
     display: block;
-}
+}*/
 
 .nav-main__submenu-title {
     display: inline-block;
