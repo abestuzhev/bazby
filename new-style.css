@@ -1,3 +1,43 @@
+ul.submenu-3 {
+  left: 236px;
+}
+
+ .last ul.submenu-3 {
+  left: -270px;
+}
+
+.nav-main__submenu {
+  width: 240px;
+}
+
+.nav-main__submenu-title {
+  padding: 6px 12px;
+  line-height: 1;
+
+  display: block;
+}
+
+.nav-main__submenu-list {
+  min-height: 100%;
+}
+
+ul.submenu-3:not(.last):before,
+ul.submenu-3.last:before {
+  content: "";
+  display: none;
+}
+
+.nav-main__submenu-title:hover {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);;
+  border-radius: 10px;
+}
+
+.nav .show-mobile-menu {
+  display: block !important;
+}
+
+
 @media (max-width: 1023px){
   .nav-main__submenu {
     top: 94px;
@@ -28,71 +68,9 @@
     content: "";
     top: 20px;
   }
-}
 
-@media (min-width: 767px){
-
-  .nav-main-list__item:hover .nav-main__submenu {
-    display: block !important;
-  }
-  /*хакоментирована строчка в style.css 122*/
-
-  .nav-main__submenu-menu-block:hover > .nav-main__submenu-list {
-    display: block !important;
-  }
-
-
-}
-
-
-ul.submenu-3 {
-  left: 236px;
-  /*left: 373px;*/
-}
-
- .last ul.submenu-3 {
-  left: -270px;
-}
-
-/*.nav-main__submenu-menu-block {
-  position: relative;
-}*/
-
-.nav-main__submenu {
-  width: 240px;
-  /*padding-left: 12px !important;
-  padding-right: 12px !important;*/
-}
-
-.nav-main__submenu-title {
-  padding: 6px 12px;
-  line-height: 1;
-
-  display: block;
-}
-
-.nav-main__submenu-list {
-  min-height: 100%;
-}
-
-ul.submenu-3:not(.last):before,
-ul.submenu-3.last:before {
-  content: "";
-  display: none;
-}
-
-.nav-main__submenu-title:hover {
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.9);;
-  border-radius: 10px;
-}
-
-/*new style*/
-
-@media (max-width: 767px){
   ul.submenu-3 {
     position: static;
-    /*float: left;*/
   }
 
   .nav-main__submenu-list {
@@ -100,16 +78,20 @@ ul.submenu-3.last:before {
     overflow: visible;
   }
 
-  /*.nav-main-list__item:hover > .nav-main__submenu {
-    display: none !important;
-  }*/
-
-  /*.nav-main__submenu-menu-block:hover > .nav-main__submenu-list {
-    display: none !important;
-  }*/
+  .nav-main-list {
+    top: 40px;
+  }
 }
 
 
-.nav .show-mobile-menu {
-  display: block !important;
+@media (min-width: 767px){
+
+  .nav-main-list__item:hover .nav-main__submenu {
+    display: block !important;
+  }
+  /*закоментирована строчка в style.css 122*/
+
+  .nav-main__submenu-menu-block:hover > .nav-main__submenu-list {
+    display: block !important;
+  }
 }
